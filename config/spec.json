@@ -1,0 +1,6 @@
+{
+  "framework" : "jasmine",
+  "launch_in_dev" : ["Chrome"],
+  "launch_in_ci" : ["PhantomJS"],
+  "test_page": "config/test-runners/jasminerunner.mustache"
+}
