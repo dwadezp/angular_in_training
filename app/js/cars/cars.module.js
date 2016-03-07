@@ -2,7 +2,10 @@ angular.module("tst.cars", [
   // routes
   'tst.cars.route',
 
-  // controllers
-  'tst.cars.controllers.car_structure'
-
+  // components
+  'tst.cars.component.car_info',
+  'tst.cars.component.car_user',
+  //services
+  'tst.cars.services.car_info'
+ 
 ]);

@@ -6,11 +6,8 @@
     .config(routes);
 
   function routes($routeProvider, $locationProvider) {
-
     var catStructureOptions = {
-      templateUrl: '/app/js/cars/controllers/car.template.html',
-      controller: 'CarStructureController',
-      controllerAs: 'ctrl'
+      templateUrl: '/app/js/cars/car.template.html'
     };
     $routeProvider.when('/', catStructureOptions);
 
